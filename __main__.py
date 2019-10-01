@@ -13,5 +13,4 @@ for cog in constants.cogs:
         exc = '{}: {}'.format(type(e).__name__, e)
         print(f"Failed to load extension {cog}\n{exc}")
 
-print(constants.token)
 bot.run(constants.token)
